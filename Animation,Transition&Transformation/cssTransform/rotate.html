@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>rotate</title>
+    <style>
+        .box{
+            height: 50px;
+            width: 50px;
+            border: 2px solid black;
+            border-radius: 5px;
+            margin: 20px;
+            position: relative;
+            top: 50px;
+            left: 50px;
+            transition: all 0.5s ease-in;;
+        }
+        #box1:hover{
+            background-color: burlywood;
+            transform: rotate(360deg);
+        }
+        #box2:hover{
+            background-color: yellow;
+            transform: rotate(180deg);
+        }
+        #box3:hover{
+            background-color: red;
+            transform: rotatex(45deg);
+        }
+        #box4:hover{
+            background-color: palevioletred;
+            transform: rotatey(45deg);
+        }
+    </style>
+</head>
+<body>
+   <div id="box1" class="box">box1</div>
+   <div id="box2" class="box">box2</div>
+   <div id="box3" class="box">box3</div>
+   <div id="box4" class="box">box4</div>
+</body>
+</html>

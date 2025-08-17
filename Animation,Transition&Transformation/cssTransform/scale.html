@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>scale</title>
+    <style>
+        .box{
+            height: 50px;
+            width: 50px;
+            border: 2px solid black;
+            border-radius: 5px;
+            margin: 20px;
+            padding: 5px;
+            transition-property: all;
+            transition-duration: 1s;
+            transition-timing-function: ease-in-out;
+        }
+        #box1:hover{
+            background-color: burlywood;
+            transform: scale(2);
+        }
+        #box2:hover{
+            background-color: yellow;
+            transform: scale(4);
+        }
+        #box3:hover{
+            background-color: red;
+            transform: scaleX(2);
+        }
+        #box4:hover{
+            background-color: palevioletred;
+            transform: scaley(3);
+        }
+    </style>
+</head>
+<body>
+   <div id="box1" class="box">box1</div>
+   <div id="box2" class="box">box2</div>
+   <div id="box3" class="box">box3</div>
+   <div id="box4" class="box">box4</div>
+</body>
+</html>

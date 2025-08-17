@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>translate</title>
+    <style>
+        .box{
+            height: 50px;
+            width: 50px;
+            border: 2px solid black;
+            border-radius: 5px;
+            margin: 20px;
+            padding: 5px;
+            transition-property: all;
+            transition-duration: 1s;
+            transition-timing-function: ease-in-out;
+        }
+        #box1:hover{
+            background-color: burlywood;
+            transform: translate(50px);
+        }
+        #box2:hover{
+            background-color: yellow;
+            transform: translate(50px , 50px);
+        }
+        #box3:hover{
+            background-color: red;
+            transform: translateX(50px);
+        }
+        #box4:hover{
+            background-color: palevioletred;
+            transform: translatey(50px);
+        }
+    </style>
+</head>
+<body>
+   <div id="box1" class="box">box1</div>
+   <div id="box2" class="box">box2</div>
+   <div id="box3" class="box">box3</div>
+   <div id="box4" class="box">box4</div>
+</body>
+</html>

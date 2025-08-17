@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Position Properties</title>
+    <style>
+        * {
+            margin: 10px;
+            padding: 0;
+        }
+        .position {
+            background-color: chartreuse;
+            height: 50px;
+            width: 50px;
+            margin: 15px;
+        }
+        #static {
+            position: static; 
+        }
+        #relative {
+            position: relative;
+            top: 40px;
+            left: 50px; 
+        }
+        #absolute {
+            position: absolute;
+            top: 60px;
+            left: 30px;
+        }
+        #fixed {
+            position: fixed;
+            top: 0px;
+            left: 0px;
+        }
+    </style>
+</head>
+<body>
+    <div id="static" class="position">static</div>
+    <div id="relative" class="position">relative</div>
+    <div id="absolute" class="position">absolute</div>
+    <div id="fixed" class="position">fixed</div>
+</body>
+</html>

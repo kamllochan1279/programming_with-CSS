@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>ZIndex</title>
+    <style>
+        .ZIndex{
+            height: 50px;
+            width: 50px;
+            position: absolute;
+            font-size: 10px;
+            text-align: center;
+            border: 3px solid black;
+            
+        }
+        #box1{
+            background-color: brown;
+            left: 50px;
+            top: 30px;
+            z-index: 1;
+        }
+        #box2{
+            background-color: blue;
+            left: 60px;
+            top: 20px;
+            z-index: 2;
+        }
+        #box3{
+            background-color: burlywood;
+            left:40px ;
+            top: 10px;
+            z-index: 3;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div id="box1" class="ZIndex">ZIndex1</div>
+    <div id="box2" class="ZIndex">ZIndex2</div>
+    <div id="box3" class="ZIndex">ZIndex3</div>
+</body>
+</html>
